@@ -4,8 +4,8 @@ body {
   }
   
   .bg-light {
-	  background: #efefef url("../images/vintage_speckles_@2X.png");
-	  background-repeat: repeat;
+	  background: url("../images/Background.jpg");
+		background-repeat: repeat;
   }
   
   .site {
@@ -19,7 +19,9 @@ body {
 	color: #777777;
 	flex: 1;
   }
-  
+	
+
+		
   .navigation-container {
 	background-color: #ffffff;
 	border-bottom: 2px solid #cccccc;
@@ -38,25 +40,26 @@ body {
   }
 
   .navbar-light .navbar-brand:hover {
-    color: rgb(252, 190, 23)
+    color: rgb(87, 87, 87)
 
 	}
 
 	.navbar-brand {
-			background-color: #4aaaa5;
+			background-color: rgb(200, 200, 200);
 			padding: 10px 25px;
 		}
   
   .nav-item a {
 	font-size: 20px;
   }
-  
+	
   .card {
 	border-radius: 0;
+	opacity: 0.9;
   }
   
   .card-title {
-	color: #4aaaa5;
+	color: rgb(87, 87, 87);
 	font-weight: bold;
   }
 
@@ -72,13 +75,13 @@ body {
   }
   
   footer {
-	background-color: #666666;
-	color: #ccc;
+	background-color: rgb(234, 234, 234);
+	color: rgb(87, 87, 87);
 	height: 100px;
 	/* centers the text vertically */
 	line-height: 100px;
 	text-align: center;
-	border-top: 3px solid #4aaaa5;
+	border-top: 3px solid white;
   }
 
 
@@ -86,15 +89,14 @@ body {
   
 	.portfolio-overlay {
 		position: relative;
-		background-color: #4aaaa5;
+		background-color: rgb(234, 234, 234);
 		height: 40px;
 		line-height: 40px;
 		margin-bottom: 0;
 		margin-top: 0;
 		text-align: center;
 		width: 100%;
-
-	
+		opacity: 0.9;
 		}
 		
 		.card-img-overlay:hover {
@@ -110,6 +112,7 @@ body {
 		padding: 1em;
 		z-index: 1000;
 		width: 361px
+	
 		}
 	
   
@@ -126,7 +129,7 @@ body {
   }
   
   .btn-primary {
-	background-color: #4aaaa5;
+	background-color: rgb(252, 190, 23);
 	border: none;
 	/* gets rid of rounded preset */
 	border-radius: 0;
